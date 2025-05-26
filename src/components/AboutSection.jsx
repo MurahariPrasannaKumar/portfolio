@@ -12,20 +12,19 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Passionate Full Stack Developer
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              Passionate Front-End Developer with a strong foundation in JavaScript (ES6+), React.js, and responsive UI development.
+Skilled at transforming UI/UX designs into efficient and accessible web interfaces using modern front-end technologies.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              Experienced in building reusable components, managing application state with React Hooks, and integrating RESTful APIs.
+Seeking to contribute as a React.js Developer Intern by leveraging problem-solving ability, design skills, and a collaborative
+mindset.
+
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -35,7 +34,8 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="\public\resume.pdf"
+                download="Tony_Main_Resume.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
@@ -50,10 +50,9 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg"> Front-End Development</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Frontend development involves building the visual and interactive aspects of a website or web application that users directly engage with. It focuses on technologies like HTML, CSS, and JavaScript and React.js to create responsive, accessible, and user-friendly interfaces.
                   </p>
                 </div>
               </div>
@@ -64,10 +63,9 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">Backend-End Development</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Backend development focuses on server-side logic, databases, and APIs that power the functionality behind web applications. It ensures data processing, authentication, and communication between the frontend and the server using technologies like Node.js, Express, and MongoDB.  
                   </p>
                 </div>
               </div>
@@ -79,10 +77,9 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">UI UX Design</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    UI/UX design focuses on creating visually appealing interfaces (UI) and enhancing user satisfaction through intuitive and seamless experiences (UX). It involves understanding user behavior, wireframing, prototyping, and optimizing usability across devices.
                   </p>
                 </div>
               </div>
